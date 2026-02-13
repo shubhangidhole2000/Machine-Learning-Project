@@ -6,14 +6,10 @@ Machine learning is used to analyze patient medical data and predict heart disea
 ## Overview
 This project predicts whether a person has heart disease using medical data and machine learning algorithms. It provides insights into patient risk factors and allows analysis of feature importance and model performance.
 
----
-
 ## Tools Used
 - Python  
 - Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`  
 - CSV Dataset (Patient Data)  
-
----
 
 ## Project Workflow
 1. **Data Collection:** Imported heart disease dataset from CSV.  
@@ -29,15 +25,12 @@ This project predicts whether a person has heart disease using medical data and 
    - **Random Forest Classifier**  
 7. **Model Evaluation:** Used cross-validation to find best parameters (K for KNN, max_depth for Decision Tree, n_estimators for Random Forest) and compared accuracy.
 
----
-
 ## Key Insights
 - **Best Model:** KNN achieved the highest accuracy of **84.48%**.  
 - **Important Risk Factors:** Age, chest pain type, cholesterol, resting blood pressure, ST depression, and maximum heart rate.  
 - **Dataset Balance:** Target variable (presence/absence of heart disease) is nearly balanced.  
-- **Feature Correlations:** Heatmap shows strong relationships among key medical indicators.  
-
----
+- **Feature Correlations:** Heatmap shows strong relationships among key medical indicators.
+- 
 ## Conclusion
 This project demonstrates how machine learning models can accurately predict heart disease and highlight the most important risk factors, enabling better preventive healthcare measures.
 
